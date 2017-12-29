@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VehicleGPSTrackingApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_download_file">DownloadFileActivity</string>
+</resources>

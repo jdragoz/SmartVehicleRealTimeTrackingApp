@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:id="@+id/videoView"
+        android:layout_weight="0.29"
+        android:layout_height="240dp" />
+
+    <Button
+        android:text="Download Video"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/btn_downloadVideo"
+        android:onClick="onClick"
+        android:layout_weight="0.29" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:text="Status:"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tx_statuslbl"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tx_status"
+            android:layout_weight="1"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

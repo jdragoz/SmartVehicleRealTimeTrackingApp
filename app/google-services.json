@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "628309741600",
+    "firebase_url": "https://vehiclegpstrackingapp.firebaseio.com",
+    "project_id": "vehiclegpstrackingapp",
+    "storage_bucket": "vehiclegpstrackingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628309741600:android:0f05153bb15a1791",
+        "android_client_info": {
+          "package_name": "com.aics.bscs.vehiclegpstrackingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628309741600-ffr62npgds16ro1a3mtau765if2hkqem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aics.bscs.vehiclegpstrackingapp",
+            "certificate_hash": "7c7461efb04baaf406b7c92c62eae9850c84ae71"
+          }
+        },
+        {
+          "client_id": "628309741600-uhhgjgctu680jptneonc32bbtl33585q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkcp0nff3rF3WkUWTNf4085j1BRGuTNj8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628309741600-uhhgjgctu680jptneonc32bbtl33585q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
